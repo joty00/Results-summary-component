@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Hanken+Grotesk:wght@500;700;800&family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Results summary component</title>
+</head>
+<body>
+
+  <div class="super_container">
+    <div class="blue_container">
+      <h1 class="title">Your Result</h1>
+      <div class="circle">
+        <h2 class="big_number">76</h2>
+        <h3 class="small_number">of 100</h3>
+      </div>
+    
+      <h3 class="subtitle">Great</h3>
+      <p>You scored higher than 65% of the people who have taken these tests.</p>
+    </div>
+    
+    <div class="white_container">
+      <h3 class="subtitle_summary">Summary</h3>
+  
+      <div class="reaction">
+        <svg xmlns="http://www.w3.org/2000/svg" id="ray" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2" d="m6 14l7-12v8h5l-7 12v-8H6Z"/></svg>
+        <h3 id="reac" class="summary_sub">Reaction</h3>
+        <h3 class="num1">80 <span>/ 100</span></h3>
+      </div>
+  
+      <div class="memory">
+        <svg xmlns="http://www.w3.org/2000/svg" id="brain" width="32" height="32" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="M7 14a3 3 0 1 0 1 5.83"/><path d="M4.264 15.605a4 4 0 0 1-.874-6.636m.03-.081A2.5 2.5 0 0 1 7 5.5m.238.065A2.5 2.5 0 1 1 12 4.5V20m-4 0a2 2 0 1 0 4 0m0-13a3 3 0 0 0 3 3m2 4a3 3 0 1 1-1 5.83"/><path d="M19.736 15.605a4 4 0 0 0 .874-6.636m-.03-.081A2.5 2.5 0 0 0 17 5.5m-5-1a2.5 2.5 0 1 1 4.762 1.065M16 20a2 2 0 1 1-4 0"/></g></svg>
+        <h3 id="memo" class="summary_sub">Memory</h3>
+        <h3 class="num1">92 <span>/ 100</span></h3>
+      </div>
+  
+      <div class="verbal">
+        <svg xmlns="http://www.w3.org/2000/svg" id="chat" width="32" height="32" viewBox="0 0 256 256"><path fill="currentColor" d="M140 128a12 12 0 1 1-12-12a12 12 0 0 1 12 12Zm-56-12a12 12 0 1 0 12 12a12 12 0 0 0-12-12Zm88 0a12 12 0 1 0 12 12a12 12 0 0 0-12-12Zm60 12a104 104 0 0 1-152.88 91.82l-34.05 11.35a16 16 0 0 1-20.24-20.24l11.35-34.05A104 104 0 1 1 232 128Zm-16 0a88 88 0 1 0-164.19 44.06a8 8 0 0 1 .66 6.54L40 216l37.4-12.47a7.85 7.85 0 0 1 2.53-.42a8 8 0 0 1 4 1.08A88 88 0 0 0 216 128Z"/></svg>
+        <h3 id="verb" class="summary_sub">Verbal</h3>
+        <h3 class="num2">61 <span>/ 100</span></h3>
+      </div>
+  
+      <div class="visual">
+        <svg xmlns="http://www.w3.org/2000/svg" id="eye" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M12 6.5a9.77 9.77 0 0 1 8.82 5.5c-1.65 3.37-5.02 5.5-8.82 5.5S4.83 15.37 3.18 12A9.77 9.77 0 0 1 12 6.5m0-2C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zm0 5a2.5 2.5 0 0 1 0 5a2.5 2.5 0 0 1 0-5m0-2c-2.48 0-4.5 2.02-4.5 4.5s2.02 4.5 4.5 4.5s4.5-2.02 4.5-4.5s-2.02-4.5-4.5-4.5z"/></svg>
+        <h3 id="visu" class="summary_sub">Visual</h3>
+        <h3 class="num2">72 <span>/ 100</span></h3>
+      </div>
+  
+      <button>Continue</button>
+    </div>
+  </div>
+  
+  
+</body>
+</html>

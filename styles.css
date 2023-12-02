@@ -1,0 +1,228 @@
+body {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.super_container {
+    width: 100%;
+}
+
+.blue_container {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 0 0 10% 10% ;
+    height: 365px;  
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 100%; 
+}
+
+.title {
+    margin-top: 24px;
+    font-size: 18px;
+    color: hsl(241, 100%, 89%);
+}
+
+.circle {
+    border-radius: 50%;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: 140px;
+    height: 140px;
+    margin-top: 10px;
+}
+
+.big_number {
+    color: hsl(0, 0%, 100%);
+    font-size: 60px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+
+.small_number {
+    margin-top: 0;
+    font-size: 15px;
+    color: hsla(241, 100%, 89%, 0.55);
+}
+
+.subtitle {
+    font-size: 28px;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 0;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+p {
+    margin-top: 10px;
+    width: 300px;
+    font-size: 18px;
+    color: hsl(241, 100%, 89%);
+    font-weight: 100;
+}
+
+.white_container {
+    width: 310px;
+    text-align: left;
+    margin-left: 30px;
+    
+}
+
+.subtitle_summary {
+    color: hsl(224, 30%, 27%);
+    margin: 20px 0;
+}
+
+.reaction {
+    background: hsla(0, 100%, 67%, 0.1);
+}
+
+.memory {
+    background: hsla(39, 100%, 56%, 0.1);
+}
+
+.verbal {
+    background: hsla(166, 100%, 37%, 0.1);
+}
+
+.visual {
+    background: hsl(234, 85%, 45%, 0.1);
+}
+
+.reaction, .memory, .verbal, .visual {
+    display: flex;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    height: 58px;
+}
+
+.summary_sub {
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+svg {
+    margin:16px 0 0 15px;
+    margin-top: 16px;
+    height: 25px;
+}
+
+#ray, #reac {
+    color: hsl(0, 100%, 67%);
+}
+
+#brain, #memo {
+   color: hsl(39, 100%, 56%)
+}
+
+#chat, #verb {
+    color: hsl(166, 100%, 37%);
+}
+
+#eye, #visu {
+    color: hsl(234, 85%, 45%)
+}
+
+.num1 {
+    margin-right: 0;
+    margin-left: 90px;
+}
+
+.num2 {
+    margin-right: 0;
+    margin-left: 105px;
+}
+
+.num1, .num2 {
+    color: hsl(224, 30%, 27%);
+    font-size: 18.3px;
+}
+
+
+span {
+    color: hsla(224, 30%, 27%, 0.536);
+    font-size: 17px;
+}
+
+button {
+    margin-top: 5px;
+    width: 310px;
+    border-radius: 30px;
+    height: 56px;
+    color: hsl(0, 0%, 100%);
+    background: hsl(224, 30%, 27%);
+    border: none;
+    font-size: 18px;
+}
+
+button:hover {
+    background: hsl(234, 85%, 45%);
+    transition: 0.2s;
+}
+
+@media screen and (min-width: 790px) {
+    .super_container {
+        display: flex;
+        justify-content: center;
+        margin-top: 210px;
+        box-shadow: 15px 17px 20px 11px hsla(0, 2%, 83%, 0.338);
+        border-radius: 30px;
+        width: 740px;
+    }
+
+    .blue_container {
+        border-radius: 30px;
+        width: 350px;
+        height: 470px;
+    }
+
+    .white_container {
+        padding-left: 40px;
+        border-radius: 0 30% 30% 0;
+        width: 350px;
+        height: 470px;
+        margin-left: 0;
+    }
+
+    .reaction, .memory, .verbal, .visual {
+        width: 300px;
+        height: 50px;
+        padding-bottom: 3px;
+    }
+
+    .subtitle_summary{
+        margin-top: 35px;
+        font-size: 23px;
+    }
+
+    button {
+        margin-top: 15px;
+    }
+
+    .title {
+        font-size: 20px;
+        margin-top: 40px;
+    }
+
+    .circle {
+        height: 190px;
+        width: 190px;
+    }
+
+    .big_number {
+        margin-top: 45px;
+        font-size: 65px;
+    }
+
+    .small_number {
+        font-size: 18px;
+    }
+
+    p { 
+        width: 250px;
+    }
+}
